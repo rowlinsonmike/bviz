@@ -1,7 +1,7 @@
 ## Bedrock Vision
 
 <p align="center">
-<img style="border-radius:8px;" alt="example" src="https://github.com/rowlinsonmike/bviz/raw/refs/heads/main/docs/assets/example.png"/>
+<img style="border-radius:8px;" alt="example" src="https://github.com/rowlinsonmike/bviz/raw/refs/heads/main/docs/assets/diagram.png"/>
 </p>
 
 ### Overview
