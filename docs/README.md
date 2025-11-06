@@ -8,6 +8,8 @@
 Bedrock Vision is a project that visualizes Bedrock Converse API conversations. It creates a PDF that contains a diagram of the conversation flow and associated text for each item, including tool calls and results.
 
 ### Installation
+> [Diagrams](https://diagrams.mingrammer.com/docs/getting-started/installation) library relies on graphviz. macOS users using Homebrew can install Graphviz via `brew install graphviz`. Similarly, Windows users with Chocolatey installed can run `choco install graphviz`.
+
 To install Bedrock Vision, use pip:
 
 ```bash
