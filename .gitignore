@@ -1,0 +1,7 @@
+.ruff_cache
+.venv
+.DS_Store
+*.egg-info
+__pycache__
+*.xcf
+.shadow

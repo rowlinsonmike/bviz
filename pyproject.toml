@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bviz"
+version = "0.1.0"
+description = "Bedrock Vision visualizes Bedrock Converse API conversations"
+readme = "docs/README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "diagrams>=0.24.4",
+    "typer>=0.20.0",
+]
+authors = [
+  {name = "Michael Rowlinson", email = "rowlinsonmike@gmail.com"},
+]
+
+[project.urls]
+Homepage = "https://github.com/rowlinsonmike/bviz"
+Documentation = "https://github.com/rowlinsonmike/bviz"
+Repository = "https://github.com/rowlinsonmike/bviz"
+
+
+
+[project.scripts]
+bviz = "bviz.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bviz = ["**/*.png"]
