@@ -205,7 +205,7 @@ def format_tool_use_label_short(tool_use: Dict[str, Any], tu_id: str) -> str:
     Short label for a tool-use node in the main graph.
     """
     tool_name = tool_use.get("toolName") or tool_use.get("name") or "unknown-tool"
-    return f"<strong>{tu_id}</strong> TOOL CALL\n{tool_name}"
+    return f"{tu_id} TOOL CALL\n{tool_name}"
 
 def format_tool_use_legend(tool_use: Dict[str, Any], tu_id: str) -> str:
     """
